@@ -1,0 +1,8 @@
+server:
+  port: 9091
+  servlet:
+    context-path: /oms
+
+spring:
+  application:
+    name: order-service-web
