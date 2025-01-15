@@ -1,4 +1,4 @@
-package com.app.order_service_web;
+package com.app.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
