@@ -6,3 +6,16 @@ server:
 spring:
   application:
     name: order-service-web
+
+management:
+  server:
+    port: 9091
+  health:
+    livenessState:
+      enabled: true
+    readinessState:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
